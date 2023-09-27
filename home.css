@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .left-content {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+  }
+  
+  .left-content li {
+    margin-right: 15px;
+  }
+  
+  .right-content {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+  }
+  
+  .right-content li {
+    margin-left: 15px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 1s; 
+  }
+  
+  .navbar a:hover {
+    color: #ff0000; 
+  }
+
+  .image-container {
+    max-width: fit-content;
+    height: fit-content;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+}
+/* CSS for controlling image size and centering */
+#myCarousel{
+    max-height: auto;
+}
+.carousel-item img {
+    width: 100%; 
+    height: 640px;
+    object-fit: coveSr;
+  
+  }
+
+/* CSS for styling the footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 50px; 
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-info {
+    font-size: 14px;
+  }
+  
+  
